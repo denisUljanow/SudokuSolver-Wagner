@@ -34,7 +34,7 @@ namespace SudokuSolver {
         }
         sb.AppendLine();
       }
-      return 
+      return sb.toString();
     }
 
     public void SetNumber(int i, int j, int number, bool fixedNumber = false) {
